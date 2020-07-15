@@ -110,7 +110,7 @@ const HomeScreen = () => {
           />
           <Text style={styles.mlText}>ml</Text>
           <TouchableHighlight
-            style={{ ...styles.updateButton, backgroundColor: '#2196F3' }}
+            style={styles.updateButton}
             onPress={updateDailyGoal}
           >
             <Text style={styles.updateButtonText}>UPDATE</Text>
