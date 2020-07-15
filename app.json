@@ -1,0 +1,32 @@
+{
+  "expo": {
+    "packagerOpts": {
+      "config": "metro.config.js",
+      "sourceExts": ["js", "jsx", "svg", "ts", "tsx"]
+    },
+    "name": "water-tracker",
+    "slug": "water-tracker",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "supportsTablet": true
+    },
+
+    "android": {
+      "softwareKeyboardLayoutMode": "pan"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    }
+  }
+}
