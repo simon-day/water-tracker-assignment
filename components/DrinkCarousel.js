@@ -42,8 +42,9 @@ class DrinkCarousel extends Component {
       >
         <Text
           style={{
-            fontSize: height > 700 ? 25 : 20,
-            fontFamily: 'roboto-bold',
+            fontSize: height > 700 ? 22 : 20,
+            // fontFamily: 'roboto-bold',
+            fontWeight: 'bold',
             color: '#fff',
           }}
         >

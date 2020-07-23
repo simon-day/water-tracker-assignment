@@ -215,14 +215,15 @@ const styles = StyleSheet.create({
   topRowHeader: {
     textAlign: 'center',
     fontSize: height < 760 ? 28 : 40,
-    fontFamily: 'roboto-bold',
+    // fontFamily: 'roboto-bold',
+    fontWeight: 'bold',
     color: '#fff',
     marginBottom: 8,
   },
   topRowSubHeader: {
     textAlign: 'center',
     fontSize: height < 760 ? 13 : 19,
-    fontFamily: 'roboto-regular',
+    // fontFamily: 'roboto-regular',
     color: '#fff',
   },
   bodyContainer: {
@@ -239,7 +240,7 @@ const styles = StyleSheet.create({
   dailyTargetText: {
     color: '#fff',
     fontWeight: 'bold',
-    fontFamily: 'roboto-medium',
+    // fontFamily: 'roboto-medium',
     paddingLeft: 4,
     fontSize: 18,
   },
@@ -247,7 +248,7 @@ const styles = StyleSheet.create({
     borderWidth: 1,
     color: '#53BFEF',
     fontSize: 18,
-    fontFamily: 'roboto-regular',
+    // fontFamily: 'roboto-regular',
     borderColor: '#53BFEF',
     width: '80%',
     borderRadius: 10,
@@ -258,7 +259,7 @@ const styles = StyleSheet.create({
     fontSize: 18,
     color: '#53BFEF',
     position: 'absolute',
-    fontFamily: 'roboto-regular',
+    // fontFamily: 'roboto-regular',
     bottom: 100,
     right: width / 3.6,
   },
@@ -301,7 +302,8 @@ const styles = StyleSheet.create({
     marginVertical: 10,
     textAlign: 'center',
     fontSize: 25,
-    fontFamily: 'roboto-bold',
+    // fontFamily: 'roboto-bold',
+    fontWeight: 'bold',
     color: '#53BFEF',
   },
   updateButton: {
@@ -313,7 +315,8 @@ const styles = StyleSheet.create({
   },
   updateButtonText: {
     color: 'white',
-    fontFamily: 'roboto-bold',
+    // fontFamily: 'roboto-bold',
+    fontWeight: 'bold',
     fontSize: 21,
     textAlign: 'center',
   },
@@ -322,7 +325,7 @@ const styles = StyleSheet.create({
     fontSize: 15,
     marginBottom: 30,
     textAlign: 'center',
-    fontFamily: 'roboto-regular',
+    // fontFamily: 'roboto-regular',
     color: '#53BFEF',
   },
 });
